@@ -1,0 +1,149 @@
+/* .image{
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+}
+.div{
+    height: 500px;
+width: 500px;
+} */
+
+body{
+   
+    background-image: url(stopwatch.jpg); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+.main,.buttons,.heading{
+    margin-top: 70px;
+    border-radius: 5px;;
+    align-items: center;
+}
+button{
+    height: 50px;
+    width: 100px;
+}
+h1{
+    color: royalblue;
+    text-decoration: underline;
+}
+.main{
+    height: 100px;
+
+    margin: 1% 10%;
+}
+h2:hover,h1:hover{
+    font-weight: bolder;
+}
+h2{
+    text-align: center;
+    color: black;
+   border: 2px solid rgb(143, 66, 66);
+   width: 60px;
+   margin:0 20px;
+   background-color:whitesmoke;
+   border-radius: 5px;
+   box-shadow: 1px 1px 1px 1px black;
+}
+.buttons{
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main{
+display: flex;
+justify-content: center;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+button[disabled]{
+    border: 1px solid gray;
+
+  }
+  button[disabled]:hover{
+    border: 1px solid gray;
+
+  }
+
+
+@media screen and (max-width: 360px) {
+   .main{
+       margin-top: 70px;
+       margin-bottom: -10px;
+
+   }
+  body{ 
+    height: 590px;
+   }
+   .heading{
+    margin-top: 50px;
+   }
+}
+@media screen and (max-width: 411px) {
+    .main{
+        margin-top: 100px;
+ margin-bottom: -20px;
+    }
+   body{ 
+     height: 680px;
+    }
+    .heading{
+     margin-top: 50px;
+    }
+ }
+
+ @media screen and (max-width : 375px) {
+    .main{
+        margin-top: 100px;
+ margin-bottom: -20px;
+    }
+   body{ 
+     height: 780px;
+    }
+    .heading{
+     margin-top: 50px;
+    }
+  }
+ @media screen and (max-width : 375px) {
+    .main{
+        margin-top: 100px;
+ margin-bottom: -20px;
+    }
+   body{ 
+     height: 750px;
+    }
+    .heading{
+     margin-top: 50px;
+    }
+ } 
+ @media screen and (max-width : 768px) {
+    .main{
+        margin-top: 100px;
+ margin-bottom: -20px;
+    }
+   body{ 
+     height: 970px;
+    }
+    .heading{
+     margin-top: 50px;
+    }
+ }
+ @media screen and (max-width : 1024px) {
+    .main{
+        margin-top: 100px;
+ margin-bottom: -20px;
+    }
+   body{ 
+     height: 1310px;
+    }
+    .heading{
+     margin-top: 50px;
+    }
+ }
